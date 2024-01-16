@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+    Defines a measure_time function
+"""
 
 import time
 import asyncio
