@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+    Defines an async wait_random function
+"""
 import asyncio
 import random
 
@@ -15,6 +17,6 @@ async def wait_random(max_delay: int = 10) -> float:
     Returns:
         float: Random delay.
     """
-    i = random.uniform(0, 10)
-    await asyncio.sleep(i)
-    return i
+    delay = random.uniform(0, 10)
+    await asyncio.sleep(delay)
+    return delay
