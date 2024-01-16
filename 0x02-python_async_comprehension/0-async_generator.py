@@ -8,10 +8,10 @@ import asyncio
 
 async def async_generator():
     """
-    async generator that run a loop 10 times
-    For each iteration:
-    - wait for 1 second
-    - yields a random float number between 0 and 10 using random.uniform
+        async_generator: yields a randomly generated float.
+
+    Returns:
+        float: randomly generated float
     """
     for i in range(10):
         yield random.uniform(0, 10)
