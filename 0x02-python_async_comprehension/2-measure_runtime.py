@@ -13,7 +13,8 @@ async def measure_runtime():
     Coroutine that measures the runtime of async_comprehension.
 
     It runs async_comprehension() four times, measuring the time taken
-    for each execution, and returns the runtime.
+    for each execution
+    return - the total runtime
     """
     for i in range(4):
         start_time = time.perf_counter()
