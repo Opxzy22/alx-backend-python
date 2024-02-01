@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""define the add function
+"""
+    Defines the add function
 """
 
 
 def add(a: float, b: float) -> float:
     """
-        a function that add two float number
-          and return a float value
+        add: returns the addition of two floats.
+
+        Args:
+            a (float): float number
+            b (float): float number
+
+        Returns:
+            float: addition of params
     """
     return a + b

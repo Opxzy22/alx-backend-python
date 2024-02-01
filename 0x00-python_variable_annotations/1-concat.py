@@ -1,10 +1,18 @@
-#!/usr/bin/env/python3
-"""define the concat function
+#!/usr/bin/env python3
+"""
+    Defines the concat function
 """
 
 
 def concat(str1: str, str2: str) -> str:
-    """a function that takes two str as argument
-        returns a concatenated string
+    """
+        concat: returns two strings concatenated.
+
+    Args:
+        str1 (str): first string.
+        str2 (str): second string.
+
+    Returns:
+        str: concatenated string
     """
     return str1 + str2

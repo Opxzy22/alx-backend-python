@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""define the floor function
+"""
+    Defines the floor function
 """
 import math
 
 
-def floor(n: float) -> float:
-    """a function that take a float argument
-        returns the floor of the float"""
+def floor(n: float) -> int:
+    """
+        floor: returns the floor of a float
+
+        Args:
+            n (float): float integer
+
+        Returns:
+            int: returns the floor of the number
+    """
     return math.floor(n)

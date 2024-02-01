@@ -1,8 +1,17 @@
-#!/usr/bin/ python3
-"""define the to_str function
+#!/usr/bin/env python3
+"""
+    Defines the to_str function
 """
 
+
 def to_str(n: float) -> str:
-     """Convert a float to its string representation.
-     """
-     return str(n)
+    """
+        to_str: returns a str format of the arg
+
+    Args:
+        n (float): float integer
+
+    Returns:
+        str: string format of the arg.
+    """
+    return str(n)
